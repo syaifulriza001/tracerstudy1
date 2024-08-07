@@ -1,0 +1,159 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar.other {
+	background-color: #009688;
+}
+
+.navbar-brand {
+	color: white !important;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.nav-link {
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #eee !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.nav-link:hover {
+	color: #bbb !important;
+}
+
+.nav-item.login {
+	background-color: #009688;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.nav-item.login.other {
+	background-color: #888;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #009688 !important;
+}
+
+
+.jumbotron {
+	background-image: url(img/startup.png);
+	height: 665px;
+	margin-top: -60px;
+	background-size: cover;
+	text-align: center;
+}
+
+@keyframes display {
+	from {
+		opacity: 0%;
+	}
+
+	to {
+		opacity: 100%;
+	}
+}
+
+@keyframes display-btn {
+	from {
+		opacity: 0%;
+		margin-top: 35px;
+	}
+
+	to {
+		opacity: 100%;
+		margin-top: 20px;
+	}
+}
+
+.jumbotron .display-4.first {
+	color: white;
+	text-align: center;
+	margin-top: 190px;
+	font-size: 65px;
+	letter-spacing: 5px;
+	text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+	opacity: 100%;
+	animation-name: display;
+	animation-duration: 2s;
+}
+
+.jumbotron .display-4.second {
+	margin-top: -15px;
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 8px;
+	text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+	opacity: 100%;
+	animation-name: display;
+	animation-duration: 2s;
+}
+
+.jumbotron .btn {
+	margin-top: 20px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-radius: 10px;
+	animation-name: display-btn;
+	animation-duration: 2s;
+}
+
+.jumbotron .btn.btn-success {
+	background-color: #009688;
+}
+
+.footer .footer-img {
+	width: 30%;
+
+}
+
+.footer {
+	background-color: #009688;
+	height: 200px;
+	padding-top: 25px;
+	margin-top: -32px;
+}
+
+.footer h5 {
+	text-align: center;
+}
+
+.footer hr {
+	background-color: #eee;
+	height: 2px;
+}
+
+.footer table tr {
+	border-bottom: 1px solid white;
+}
+
+.footer table tr td {
+	padding: 7px;
+}
+
+.about {
+	padding: 30px;
+}
+
+.navbargreen {
+	background-color: #009688;
+}
+
+.about {
+	background-color: #fcfcfc;
+}
+
+.profil {
+	box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
+
+.profil .card-header {
+	background-color: white;
+}

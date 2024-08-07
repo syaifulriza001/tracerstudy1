@@ -1,0 +1,8 @@
+.card.kmeans table.table thead.thead-dark th{
+    font-size: 14px;
+}
+.card.kmeans table.table tr td{
+    font-size: 13px;
+    padding: 5px;
+    padding-left: 15px;
+}
